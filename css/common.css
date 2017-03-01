@@ -1,0 +1,30 @@
+body, div, h1, h2, h3, h4, h5, h6, ul, li, ol, dl, dt, dd, p, span, img, form, table, th, td {
+    padding: 0;
+    margin: 0;
+}
+html{
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    /*background: #f7f7f7;*/
+    font-family: "Microsoft YaHei",'微软雅黑',Arial,Helvetica,sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+ul {
+    list-style: none;
+}
+a:hover {
+    color: #999;
+}
+.city-container {
+    background: #fff;
+}
+.page {
+    width: 1200px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}

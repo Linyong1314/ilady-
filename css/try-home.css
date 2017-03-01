@@ -1,0 +1,421 @@
+html {
+    background: url("http://wwwimg.metroer.com/templates/default/images/try-bg.jpg") center top no-repeat;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    color: #333;
+    line-height: 1.7;
+}
+.try {
+    margin-top: 40px;
+}
+.try-left {
+    width: 700px;
+    float: left;
+}
+.try-left .try-step {
+    width: 700px;
+    height: 142px;
+    overflow: hidden;
+    float: left;
+}
+.try-left .try-active {
+    width: 700px;
+    height: 1056px;
+    float: left;
+    background-image: url("http://wwwimg.metroer.com/templates/default/images/try-bg2.png");
+    margin-top: 30px;
+    padding: 35px 40px;
+    box-sizing: border-box;
+}
+.try-active .try-active-item {
+    position: relative;
+}
+/*****<--try-item-left-->*****/
+.try-active-item .try-item-left {
+    width: 289px;
+    float: left;
+}
+.try-active-item .try-item-left .cover {
+    width: 289px;
+    height: 289px;
+    overflow: hidden;
+}
+.try-active-item .try-item-left .cover img {
+    width: 289px;
+    height: 289px;
+    border: 2px solid #fce45f;
+    box-sizing: border-box;
+}
+.try-active-item .try-item-left .date {
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #C39A6F;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.try-active-item .try-item-left .share {
+    height: 30px;
+    font-size: 18px;
+    color: #C39A6F;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.try-active-item .try-item-left .tip {
+    margin-top: 10px;
+}
+/*****<--try-item-right-->*****/
+.try-active-item .try-item-right {
+    width: 301px;
+    float: left;
+    margin-left: 30px;
+    position: relative;
+}
+.try-item-right .number {
+    width: 175px;
+    height: 60px;
+    background-color: #E87583;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: -10px;
+    right: -70px;
+    text-align: center;
+}
+.try-item-right .number span {
+    font-size: 36px;
+}
+.try-item-right .brand {
+    height: 77px;
+    margin-top: 60px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.try-item-right .brand a {
+    color: #c39a6f;
+    margin-left: 20px;
+}
+.try-item-right .title {
+    height: 43px;
+    font-size: 22px;
+    border-bottom: 2px solid #e87583;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.try-item-right .info {
+    margin-top: 15px;
+}
+.try-item-right .description {
+    margin-top: 30px;
+}
+.try-item-right .btns {
+    margin-top: 20px;
+}
+.try-item-right .btns a {
+    display: inline-block;
+    width: 135px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+}
+.try-item-right .btns a:nth-of-type(1) {
+    background-color: #c39a6f;
+}
+.try-item-right .btns a:nth-of-type(2) {
+    margin-left: 25px;
+    background-color: #e87583;
+}
+.try-item-right .apply-user {
+    margin-top: 20px;
+}
+.try-item-right .apply-user span {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+.try-item-right .apply-user a img {
+    width: 28px;
+    height: 28px;
+    margin-left: 5px;
+}
+.try-active .try-active-item:nth-of-type(2) {
+    margin-top: 120px;
+}
+/*****<--try-right-->*****/
+.try-right {
+    width: 250px;
+    float: left;
+    margin-left: 50px;
+}
+.try-rule {
+    border-radius: 14px;
+    padding: 20px 15px;
+    border: 2px solid #c0bda9;
+}
+.try-rule .title {
+    width: 200px;
+    height: 36px;
+    margin: 0 auto;
+    line-height: 36px;
+    text-align: center;
+}
+.try-rule p {
+    font-size: 20px;
+    font-weight: bold;
+    background: url("http://wwwimg.metroer.com/templates/default/images/icon-try-rule.jpg") no-repeat;
+}
+.try-rule ul {
+    margin-top: 20px;
+}
+.try-rule ul li {
+    font-size: 16px;
+    background: url("http://wwwimg.metroer.com/templates/default/images/try-rule-point.jpg") left 5px no-repeat;
+    padding-left: 15px;
+}
+.try-rule .rule-goto {
+    margin-top: 20px;
+    text-align: center;
+}
+.try-rule .rule-goto a {
+    font-size: 16px;
+    color: #c39a6f;
+}
+.try-user-top5 {
+    margin-top: 15px;
+    width: 250px;
+    height: 230px;
+    background-image: url("http://wwwimg.metroer.com/templates/default/images/try-top-user-bg.png");
+    box-sizing: border-box;
+    padding: 75px 25px 25px;
+}
+.try-user-top5 .try-user-top1 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+.try-user-top1 .left {
+    width: 90px;
+    float: left;
+    text-align: center;
+}
+.try-user-top1 .left img {
+    width: 60px;
+    border: 2px solid #fce45f;
+    border-radius: 50%;
+}
+.try-user-top1 .right {
+    width: 110px;
+    float: left;
+    overflow: hidden;
+}
+.try-user-top1 .right p:nth-of-type(1) {
+    font-size: 16px;
+}
+.try-top-user-other {
+    margin-top: 5px;
+}
+.try-top-user-other ul li {
+    width: 50%;
+    float: left;
+    margin-top: 5px;
+}
+.try-goto {
+    margin-top: 30px;
+    float: left;
+}
+.try-goto a img {
+    width: 250px;
+    height: 230px;
+}
+.try-recommnd-report {
+    float: left;
+    margin-top: 20px;
+    height: 338px;
+    padding: 58px 25px 27px;
+    box-sizing: border-box;
+    background: url("http://wwwimg.metroer.com/templates/default/images/try-recommend-report-bg.png") no-repeat;
+}
+.try-recommnd-report .report-item {
+    margin-top: 15px;
+}
+.report-item .report-item-left {
+    float: left;
+}
+.report-item .report-item-left a img {
+    width: 65px;
+    height: 65px;
+}
+.report-item .report-item-right {
+    width: 125px;
+    margin-left: 10px;
+    line-height: 1.2;
+    float: left;
+}
+.report-item .report-item-right .title {
+    border-bottom: 2px solid #e87583;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.report-item .report-item-right .title a {
+    font-size: 12px;
+}
+.report-item .report-item-right .try-scroce-s5 {
+    width: 112px;
+    height: 24px;
+    background: url("http://wwwimg.metroer.com/templates/default/images/try-score-small.png") no-repeat;
+    background-position: 0 -96px;
+}
+/*********<--banner-ad-->********/
+.banner-ad {
+    float: left;
+    margin: 30px 0 30px 0;
+}
+.banner-ad a img {
+    width: 1000px;
+    height: 120px;
+}
+/********report-try-list********/
+.report-try-list {
+    width: 1000px;
+    border: 2px solid #c0bda9;
+    border-radius: 14px;
+    background-color: #fff;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px 60px;
+}
+.report-try-list .head {
+    font-size: 20px;
+    color: #666;
+}
+.report-try-list .head span {
+    float: left;
+}
+.report-try-list .head span .iconfont {
+    font-size: 30px;
+    padding-right: 10px;
+}
+.report-try-list .head a {
+    font-size: 18px;
+    text-decoration: underline;
+    float: right;
+}
+.report-try-item {
+    height: 140px;
+    margin: 40px 0;
+    overflow: hidden;
+}
+.report-try-item .report-try-item-l {
+    width: 140px;
+    height: 140px;
+    float: left;
+    overflow: hidden;
+}
+.report-try-item .report-try-item-l a img {
+    width: 140px;
+    height: 140px;
+}
+.report-try-item .report-try-item-c {
+    width: 365px;
+    margin-left: 130px;
+    float: left;
+}
+.report-try-item .report-try-item-c p {
+    font-size: 16px;
+}
+.report-try-item .report-try-item-c .title {
+    font-size: 24px;
+    height: 32px;
+    overflow: hidden;
+}
+.report-try-item .report-try-item-c .size {
+    margin-top: 30px;
+}
+.report-try-item .report-try-item-r {
+    width: 180px;
+    margin-left: 60px;
+    float: left;
+}
+.report-try-item .report-try-item-r .title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.report-try-item .report-try-item-r .try-score5 {
+    width: 140px;
+    height: 30px;
+    background: url("http://wwwimg.metroer.com/templates/default/images/try-score.png") no-repeat;
+    background-position: 0 -120px;
+}
+.report-try-item .report-try-item-r .add-report {
+    width: 140px;
+    padding: 5px 10px;
+    background-color: #795da3;
+    text-align: center;
+    margin-top: 25px;
+    box-sizing: border-box;
+}
+.report-try-item .report-try-item-r .add-report a {
+    font-size: 24px;
+    color: #fff;
+}
+/**********<--try-bottom-->**********/
+.try-bottom-left {
+    width: 700px;
+    margin-top: 50px;
+    float: left;
+    background-color: #fff;
+    padding: 30px 25px;
+    border: 2px solid #c39a6f;
+    box-sizing: border-box;
+    position: relative;
+}
+.try-bottom-left .try-more-brand ul {
+    margin: 0 auto;
+}
+.try-bottom-left ul li {
+    float: left;
+    margin: 5px 4px;
+}
+.try-bottom-left ul li img {
+    width: 120px;
+    height: 60px;
+}
+.try-bottom-left .tag {
+    width: 44px;
+    height: 55px;
+    background: url("http://wwwimg.metroer.com/templates/default/images/try-title-bg.png") no-repeat;
+    background-size: 100% auto;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #fff;
+    padding: 15px;
+    position: absolute;
+    left: 50px;
+    top: -55px;
+}
+.try-bottom-left .try-tag-more {
+    position: absolute;
+    top: -30px;
+    right: 10px;
+}
+.try-bottom-left .try-tag-more a {
+    font-size: 16px;
+    color: #c39a6f;
+    text-decoration: underline;
+}
+.try-bottom-right {
+    width: 250px;
+    margin: 50px 0 0 50px;
+    float: left;
+}
+.try-bottom-right a img {
+    width: 250px;
+    height: 395px;
+}

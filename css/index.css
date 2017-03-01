@@ -1,0 +1,269 @@
+.city-top {
+    width: 100%;
+    height: 45px;
+    background: #232323;
+}
+.top-inner{
+    height: 45px;
+    background: #232323;
+}
+.top-inner .top-left{
+    width: 200px;
+    height:45px;
+    float: left;
+    line-height: 45px;
+    position: relative;
+}
+.top-left span{
+    display: block;
+    width: 70px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+    color: #999;
+    float: left;
+}
+.top-left a{
+    display: inline-block;
+    width: 30px;
+    height:45px;
+    margin: 0 10px;
+}
+.top-left a img {
+    position: relative;
+    top:8px;
+}
+/*二维码*/
+.weixin{
+    display: none;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #666;
+    position: absolute;
+    top:36px;
+    left: 0;
+    z-index: 40;
+}
+.weixin img {
+    border: 0;
+}
+.city-top .top-inner .top-left:hover .weixin{
+    display: block;
+}
+
+/*user*/
+.index-user{
+    width: 100px;
+    height: 45px;
+    float: right;
+    text-align: center;
+    line-height: 45px;
+}
+.index-user a{
+    color: #999;
+}
+.index-user span{
+    font-size: 12px;
+    color: #666;
+}
+.search{
+    width: 258px;
+    height:37px;
+    float: right;
+    text-align: center;
+    margin-right: 60px;
+}
+.sear-boss{
+    width: 220px;
+    height: 28px;
+    line-height: 28px;
+    padding-left: 5px;
+    float: left;
+    margin-top: 7px;
+    background: #2D2E2E;
+    border: 1px solid #3f3f3f;
+    color: #666;
+    outline: 0;
+
+}
+.sear-btn{
+    float: left;
+    width: 30px;
+    height: 32px;
+    background: #2D2E2E url(http://wwwimg.metroer.com/templates/default/images/icon-search.png?v=1017) center no-repeat;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 7px 0 0 0;
+    border: 1px solid #3f3f3f;
+    border-left: none;
+    outline: 0;
+}
+
+/*header*/
+.city-header {
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #c7c7c7;
+}
+.header-nav{
+    height: 107px;
+    background: #ffffff;
+}
+.city-logo{
+    width: 170px;
+    height: 85px;
+    float: left;
+    margin-top: 15px;
+}
+/*city-nav*/
+.city-nav {
+    width: 900px;
+    height:50px;
+    float: right;
+    position: relative;
+    font-size: 18px;
+    line-height: 50px;
+    margin-top: 28px;
+}
+.city-nav>a{
+    text-align: center;
+    margin: 0 35px;
+    float: left;
+}
+
+
+.beauty-nav {
+    display: none;
+    width: 270px;
+    z-index: 33;
+    position: absolute;
+    left:32px;
+    top:55px;
+    font-size: 16px;
+}
+.beauty-nav a {
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    background: rgba(40,40,40,0.9);
+    color: #ffffff;
+    text-align: center;
+    border-top: 1px dashed #666;
+    border-left: 1px dashed #666;
+    box-sizing: border-box;
+}
+.beauty-nav a:nth-of-type(2n-1) {
+    border-left: none;
+}
+.beauty-nav a:nth-of-type(1),
+.beauty-nav a:nth-of-type(2){
+    border-top: none;
+}
+.beauty-nav span {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 125px;
+    top: -20px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(51, 51, 51, 0.9);
+}
+
+/*footer*/
+/*.city-container  {
+    height: 1000px;
+}
+.city-footer {
+    margin-top: 80px;
+    padding-top: 50px;
+    background: #3B3B3B;
+}
+.f-container {
+    height: 160px;
+    background: red;
+}
+.city-bottom {
+    background: #2f302f;
+    height: 60px;
+    border-top: 1px solid #555;
+}
+@media (max-width: 1200px) {
+    .city-bottom, .city-footer {
+        width: 1200px;
+    }
+}*/
+.footer{
+    width:100%;
+    height: 209px;
+    margin-top: 80px;
+    padding-top: 50px;
+    background: #3B3B3B;
+    box-sizing: border-box;
+}
+.f-container{
+    width: 1200px;
+    height: 159px;
+    background: #3B3B3B;
+    margin: 0 auto;
+}
+.f-container .con-left{
+    width: 280px;
+    height:75px;
+    float: left;
+    text-align: center;
+}
+.f-container .con-right{
+    width: 920px;
+    height:69px;
+    float: right;
+}
+.f-container .con-right .c-r-nav{
+    width: 920px;
+    height: 23px;
+    color: #999;
+}
+.f-container .con-right .c-r-nav a{
+    color: #999;
+}
+.f-container .con-right .copyright{
+    width: 920px;
+    height: 46px;
+    color: #999;
+}
+.f-container .clear{
+    clear: both;
+}
+.f-container .friendlink{
+    width: 1200px;
+    height: 64px;
+    border-top: 1px solid #999;
+    margin-top: 20px;
+    padding: 20px 0;
+    text-align: center;
+    color: #999;
+}
+.f-container .friendlink a{
+    margin: 0 5px;
+    color: #999;
+}
+.f-bottom{
+    width: 100%;
+    background: #2f302f;
+    height: 60px;
+    line-height: 60px;
+    text-align: right;
+    color: #999;
+    border-top: 1px solid #555;
+    padding-right: 45px;
+    box-sizing: border-box;
+}
+@media (max-width: 1200px){
+    .f-bottom, .footer, .city-header{
+        width: 1200px;
+    }
+}
+

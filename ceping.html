@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测评</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/masonry/jquery.infinitescroll.min.js"></script>
+    <script src="js/masonry/jquery.masonry.min.js"></script>
+    <style>
+        html {
+            background: #fff;
+        }
+        .ceping-urhere {
+            width: 1200px;
+            margin: 0 auto;
+            height: 23px;
+            line-height: 23px;
+            color: #666;
+            padding: 10px 0;
+        }
+        .ceping-urhere > a {
+            margin: 0 10px;
+        }
+        .container {
+            box-sizing: border-box;
+            line-height: 1.7;
+        }
+        .article-list {
+            width: 1200px;
+        }
+        .article-item {
+            width: 280px;
+            margin: 8px 10px;
+            float: left;
+            overflow: hidden;
+            box-shadow: 0 0 3px 0 #ddd;
+            background: #FAFAFB;
+            box-sizing: border-box;
+            background: #fff;
+        }
+        .article-item .cover a img {
+            width: 100%;
+        }
+        .article-item .info {
+            padding: 15px 20px 20px;
+        }
+        .article-item .info .title {
+            font-size: 20px;
+            line-height: 1.2;
+        }
+        .article-item .info .description {
+            border-top: 1px solid #666;
+            border-bottom: 1px solid #666;
+            color: #666;
+            margin-top: 15px;
+            padding: 5px 0;
+        }
+        #infscr-loading {
+        text-align: center;
+        z-index: 100;
+        position: fixed;
+        left: 45%;
+        bottom: 40px;
+        width: 200px;
+        padding: 10px;
+        background: #000; 
+        opacity: 0.8;
+        color: #FFF;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+    }
+    .btn-top {
+            width: 0;
+            height: 0;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            border-bottom: 50px solid #999;
+            display: none;
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="city-top">
+    <div class="page top-inner">
+        <div class="top-left">
+            <span>关注我们:</span>
+            <a href="#"><img src="http://wwwimg.metroer.com/templates/default/images/icon-weibo.png" alt=""></a>
+            <a href="#" class="ss"><img src="http://wwwimg.metroer.com/templates/default/images/icon-weixin.png" alt=""></a>
+            <div class="weixin"><img src="images/weixin.jpg" alt=""></div>
+        </div>
+        <div class="top-rig">
+            <div class="index-user">
+                <a href="login.html">登录</a>
+                <span>OR</span>
+                <a href="sign-up.html">注册</a>
+            </div>
+            <div class="search">
+                <input class="sear-boss" type="text" placeholder="搜索" value="">
+                <input class="sear-btn" type="submit" value="">
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<div class="city-header">
+    <div class="page header-nav">
+        <div class="city-logo"><a href="#"><img src="images/logo.jpg" alt=""></a></div>
+        <div class="city-nav">
+            <a href="home.html" target="_Self">首页</a>
+            <a href="beauty.html" class="nav-on">Beauty</a>
+            <a href="try-home.html">优品试用</a>
+            <a href="beautyClassroom.html">美妆教室</a>
+            <a href="brandZone.html">品牌专区</a>
+            <a href="welfareAssociation.html">福利社</a>
+            <a href="bbs.html">社区</a>
+            <div class="beauty-nav">
+                <a href="#">测评</a>
+                <a href="#">护肤</a>
+                <a href="#">彩妆</a>
+                <a href="#">美体</a>
+                <a href="#">时尚</a>
+                <a href="#">生活</a>
+                <a href="#">明星</a>
+                <a href="#">旅游</a>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="ceping-urhere">
+        <a href="home.html">首页</a>
+        <span> > </span>
+        <a href="beauty.html">Beauty</a>
+        <span> > </span>
+        <a href="#">测评</a>
+    </div>
+    <div class="container page">
+        <div class="article-list" id="masonry">
+            <div class="article-item">
+                <div class="cover">
+                    <a href="#"><img src="http://wwwimg.metroer.com/upload/1702/20/26355352158aa4e5f5785e0.91667087.jpg" alt=""></a>
+                </div>
+                <div class="info">
+                    <p class="title"><a href="#">用“美盐”磨出光滑肌 巴斯克林美肌淋浴盐试用体验精选</a></p>
+                    <p class="description">冬季也需时刻注意及时清理身体角质，可洗澡时要使用好几瓶不同功效的产品，瓶瓶罐罐的又占地方又麻烦。试试巴斯克林美肌淋浴盐吧！含有温泉矿物质成分,能清洁肌肤污垢并软化角质。植物保湿成分更能锁水呵护滋养皮肤，改善肌肤粗糙状态。超小乳白色颗粒给身体更温和的磨砂体验，软化角质减少死皮，带来光滑美肌。此次巴斯克林美肌淋浴盐的试用，我们精选了3位美妆达人的试用报告，一起来看看大家最真实的体验吧！</p>
+                </div>
+            </div>
+            <div class="article-item">
+                <div class="cover">
+                    <a href="#"><img src="http://wwwimg.metroer.com/upload/1702/21/181975271458abc0d90fccc5.94970541.jpg" alt=""></a>
+                </div>
+                <div class="info">
+                    <p class="title"><a href="#">防晒新宠 SOFINA苏菲娜芯美颜日间倍护防护乳评测</a></p>
+                    <p class="description">防晒不仅仅是防止肌肤肤色变黑长斑，更是为了防护肌肤免受紫外线的伤害进而产生肌肤光老化。可是面对种类繁多的防晒品，如何挑选成了一大难题。今天为大家评测的是SOFINA苏菲娜芯美颜日间倍护防护乳，一起来看看评测结果如何吧！</p>
+                </div>
+            </div>
+            <div class="article-item">
+                <div class="cover">
+                    <a href="#"><img src="http://wwwimg.metroer.com/upload/1702/20/26355352158aa4e5f5785e0.91667087.jpg" alt=""></a>
+                </div>
+                <div class="info">
+                    <p class="title"><a href="#">用“美盐”磨出光滑肌 巴斯克林美肌淋浴盐试用体验精选</a></p>
+                    <p class="description">冬季也需时刻注意及时清理身体角质，可洗澡时要使用好几瓶不同功效的产品，瓶瓶罐罐的又占地方又麻烦。试试巴斯克林美肌淋浴盐吧！含有温泉矿物质成分,能清洁肌肤污垢并软化角质。植物保湿成分更能锁水呵护滋养皮肤，改善肌肤粗糙状态。超小乳白色颗粒给身体更温和的磨砂体验，软化角质减少死皮，带来光滑美肌。此次巴斯克林美肌淋浴盐的试用，我们精选了3位美妆达人的试用报告，一起来看看大家最真实的体验吧！</p>
+                </div>
+            </div>
+            <div class="article-item">
+                <div class="cover">
+                    <a href="#"><img src="http://wwwimg.metroer.com/upload/1702/14/117403614058a2c55592c014.29256353.jpg" alt=""></a>
+                </div>
+                <div class="info">
+                    <p class="title"><a href="/test/15139" target="_blank">一油抵百膜 • Bio-Oil百洛多用护肤油测评</a></p>
+                    <p class="description">“油”真的那么油吗？其实要看产品。很多女生虽然知道油对于缓解肌肤干燥很有帮助，却又轻易不敢尝试的理由就在于此。但油可以使肌肤得到长效滋润，远比每日一片补水面膜来得合算且有效。挑选一款对肌肤无负担的护肤油是关键，不如就试试Bio-Oil百洛多用护肤油吧，同时对脸部与身体起效哦。</p>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div id="page-nav"><a href="jsp/xuanxian.jsp?page=1"></a></div>
+<div class="footer">
+    <div class="f-container">
+        <div class="con-left">
+            <img src="http://wwwimg.metroer.com/templates/default/images/footer-logo.jpg">
+        </div>
+        <div class="con-right">
+            <div class="c-r-nav">
+                <a href="#">授权声明</a>
+                <span>|</span>
+                <a href="#">招聘信息</a>
+                <span>|</span>
+                <a href="#">联系信息</a>
+                <span>|</span>
+                <a href="#">广告服务</a>
+                <span>|</span>
+                <a href="#">合作媒体</a>
+                <span>|</span>
+                <a href="#">媒体动态</a>
+            </div>
+            <div class="copyright">
+                <p>版权所有：上海森音信息技术有限公司 电话：（+86）63353637-670 （工作日 09：00-18:00）</p>
+                <p>Copyright Metroer.com All Rights Reseved 沪ICP备05019890号-1</p>
+            </div>
+            <div></div>
+        </div>
+        <div class="clear"></div>
+        <div class="friendlink">
+            友情链接：
+            <a href="#" target="_blank">周末画报</a>
+            <a href="#" target="_blank">CityMagazine</a>
+            <a href="#" target="_blank">Lohas乐活</a>
+            <a href="#" target="_blank">生活月刊</a>
+            <a href="#" target="_blank">新视线</a>
+            <a href="#" target="_blank">米兰圈</a>
+            <a href="#" target="_blank">果粒网</a>
+            <a href="#" target="_blank">动脉网</a>
+        </div>
+    </div>
+    <div class="f-bottom">
+        Power By Modern Media
+    </div>
+</div>
+<div class="btn-top"></div>
+</body>
+</html>
+<script>
+    //网页头部模板
+    var sub_t = 0;
+    $(".nav-on, .beauty-nav").hover(function () {
+        clearTimeout(sub_t);
+        $(".beauty-nav").fadeIn();
+    }, function () {
+        sub_t = setTimeout(function () {
+            $(".beauty-nav").fadeOut();
+        }, 300);
+    });
+
+    $(".beauty-nav a").hover(function () {
+        $(this).css("background", "#999");
+    }, function () {
+        $(this).css("background", "rgba(40,40,40,0.9)");
+    });
+
+
+    //瀑布加infinitescoll
+    $(function(){
+            var $container = $('#masonry');
+            $container.imagesLoaded(function() {
+                $container.masonry({
+                    itemSelector: '.article-item',
+                    gutter: 20,
+                    isAnimated: true,
+                });
+            });
+    $container.infinitescroll({
+        navSelector  : '#page-nav',
+        nextSelector : '#page-nav a',
+        itemSelector : '.article-item',
+        maxPage: 8,
+        loading: {
+            finishedMsg: '没有更多的页面加载。',
+            loadingText:'加载中',
+            img: 'http://ilady.metroer.com/templates/default/images/info_loading.gif'
+        }
+    },function(newElements){
+            var $newElems = $( newElements ).css({ opacity: 0 });
+            $newElems.imagesLoaded(function(){
+                $newElems.animate({opacity:1});
+                $container.masonry( 'appended', $newElems, true ); 
+            });
+        }
+    );
+    });
+    //返回顶部按钮
+    $(function(){
+        $(window).bind('scroll',function(){
+            if($(document).scrollTop()>200){
+                $(".btn-top").show();
+            }
+            else{
+                $(".btn-top").hide();
+            }
+        })
+        $(".btn-top").click(function(){
+            $('body,html').animate({scrollTop:0},1000);
+        })
+    });
+</script>

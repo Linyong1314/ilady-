@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sign-up.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+<div class="com-header"></div>
+<!--pattern="[A-Za-z0-9_\u4e00-\u9fa5]{4,12}" required /-->
+<!--pattern="[A-Za-z].*[0-9]|[0-9].*[A-Za-z]" required onblur="return checkpass()"/-->
+    <div class="middlebox">
+        <div class="register">
+            <p class="title">欢迎注册都市客会员!</p>
+            <form action="" method="post" name="form1">
+                <div>
+                    <label>用户名:</label>
+                    <input type="text" class="retext" name="yourname" onblur="checkna()" required />
+                    <span class="tips" id="divname">4到12个字符，可用中英文、数字、下划线，不可修改</span>
+                </div>
+                <div>
+                    <label>密码:</label>
+                    <input type="password" class="retext" name="yourpass" onBlur="checkpsd1()" required/>
+                    <span class="tips" id="divpassword1">至少4个字符，请使用英文、数字、特殊符号</span>
+                </div>
+                <div>
+                    <label>确认密码:</label>
+                    <input type="password" class="retext" name="yourpass2" onBlur="checkpsd2()" required/>
+                    <span class="tips" id="divpassword2">请再输入一遍您上面输入的密码</span>
+                </div>
+                <div>
+                    <label>EMAIL:</label>
+                    <input type="text" class="retext" name="youremail" onBlur="checkmail()" required/>
+                    <span class="tips" id="divmail">请填写真实信箱，找回密码时会用到</span>
+                </div>
+                <div>
+                    <label>性别:</label>
+                    <input class="radio" type="radio" name="people" value="" checked>男
+                    <input class="radio2" type="radio" name="people" value="">女
+                </div>
+                <div>
+                    <label>数字验证</label>
+                    <input type="text" class="retext">
+                    <img src="http://passport.metroer.com/identifycode.php?t=0.9473291428852901" alt=""
+                         style="width: 70px; height: 25px; margin-right: 10px; margin-top: 5px; float: left;">
+                    <a href="#" class="break-img">看不清?换个图片试试</a>
+                    <div class="clear"></div>
+                </div>
+                <div>
+                    <label>服务条款</label>
+                    <input class="radio" type="checkbox" value="" id="yes">同意
+                    <a class="term-go">点击查看服务条款内容</a>
+                </div>
+                <input type="submit" value="完成注册" class="sign-ok" id="zhuce" disabled="tre">
+            </form>
+        </div>
+    </div>
+<div class="com-footer"></div>
+</body>
+</html>
+<SCRIPT language="JavaScript">
+    function checkna(){
+        na=form1.yourname.value;
+        var user = /^[\u4e00-\u9fa5]\w+$/
+        var userAZ = false;
+        var userAS = false;
+        if( na.length <4 || na.length >12)
+        {
+            divname.innerHTML='<font class="tips_false">4到12个字符，可用中英文、数字、下划线，不可修改</font>';
+
+        }else{
+            for (i = 0; i < na.length; i++) {
+                if (user == na.charAt(i)) {
+                    userAS = true;
+                }else {
+                    userAZ = true;
+                }
+            }
+            divname.innerHTML='<font class="tips_true">输入正确</font>';
+
+        }
+
+    }
+    //验证密码
+    function checkpsd1(){
+        psd1=form1.yourpass.value;
+        var pass = /^[a-zA-Z0-9]/;
+        var flagZM=false ;
+        var flagQT=false ;
+        if(psd1.length<4){
+            divpassword1.innerHTML='<font class="tips_false">至少4个字符，请使用英文、数字、特殊符号</font>';
+        }else
+        {
+            for(i = 0; i < psd1.length; i++) {
+                if (pass == psd1.charAt(i)) {
+                    flagZM=true;
+                }else {
+                    flagQT=true;
+                }
+            }
+            divpassword1.innerHTML='<font class="tips_true">输入正确</font>';
+        }
+    }
+    //验证确认密码
+    function checkpsd2(){
+        if(form1.yourpass.value!=form1.yourpass2.value) {
+            divpassword2.innerHTML='<font class="tips_false">您两次输入的密码不一样</font>';
+        } else {
+            divpassword2.innerHTML='<font class="tips_true">输入正确</font>';
+        }
+    }
+    //验证邮箱
+    function checkmail(){
+        apos=form1.youremail.value.indexOf("@");
+        dotpos=form1.youremail.value.lastIndexOf(".");
+        if (apos<1||dotpos-apos<2)
+        {
+            divmail.innerHTML='<font class="tips_false">输入错误</font>' ;
+        }
+        else {
+            divmail.innerHTML='<font class="tips_true">输入正确</font>' ;
+        }
+    }
+    //判断是否同意条款
+    (function(){
+        var cb=document.getElementById("yes");
+        cb.onclick=function(){
+            if(cb.checked==true){
+                document.getElementById("zhuce").disabled=false;
+            }
+            else{
+                document.getElementById("zhuce").disabled=true;
+            }
+        }
+    })();
+
+    //加载首末模板
+    $('.com-header').load('index1.html');
+    $('.com-footer').load('index2.html');
+
+</SCRIPT>

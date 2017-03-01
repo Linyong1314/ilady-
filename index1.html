@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-3.1.1.js"></script>
+</head>
+<body>
+<div class="city-top">
+    <div class="page top-inner">
+        <div class="top-left">
+            <span>关注我们:</span>
+            <a href="#"><img src="http://wwwimg.metroer.com/templates/default/images/icon-weibo.png" alt=""></a>
+            <a href="#" class="ss"><img src="http://wwwimg.metroer.com/templates/default/images/icon-weixin.png" alt=""></a>
+            <div class="weixin"><img src="images/weixin.jpg" alt=""></div>
+        </div>
+        <div class="top-rig">
+            <div class="index-user">
+                <a href="login.html">登录</a>
+                <span>OR</span>
+                <a href="sign-up.html">注册</a>
+            </div>
+            <div class="search">
+                <input class="sear-boss" type="text" placeholder="搜索" value="">
+                <input class="sear-btn" type="submit" value="">
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<div class="city-header">
+    <div class="page header-nav">
+        <div class="city-logo"><a href="#"><img src="images/logo.jpg" alt=""></a></div>
+        <div class="city-nav">
+            <a href="home.html" target="_Self">首页</a>
+            <a href="beauty.html" class="nav-on">Beauty</a>
+            <a href="try-home.html">优品试用</a>
+            <a href="beautyClassroom.html">美妆教室</a>
+            <a href="brandZone.html">品牌专区</a>
+            <a href="welfareAssociation.html">福利社</a>
+            <a href="bbs.html">社区</a>
+            <div class="beauty-nav">
+                <a href="ceping.html">测评</a>
+                <a href="#">护肤</a>
+                <a href="#">彩妆</a>
+                <a href="#">美体</a>
+                <a href="#">时尚</a>
+                <a href="#">生活</a>
+                <a href="#">明星</a>
+                <a href="#">旅游</a>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    var sub_t = 0;
+    $(".nav-on, .beauty-nav").hover(function () {
+        clearTimeout(sub_t);
+        $(".beauty-nav").fadeIn();
+    }, function () {
+        sub_t = setTimeout(function () {
+            $(".beauty-nav").fadeOut();
+        }, 300);
+    });
+
+    $(".beauty-nav a").hover(function () {
+        $(this).css("background", "#999");
+    }, function () {
+        $(this).css("background", "rgba(40,40,40,0.9)");
+    });
+</script>

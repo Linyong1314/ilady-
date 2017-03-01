@@ -1,0 +1,219 @@
+.bbs-news {
+    width: 960px;
+    height: 23px;
+    margin: auto;
+}
+.bbs-news .bbs-news-list {
+    width: 350px;
+    height: 23px;
+    line-height: 23px;
+    float: right;
+    overflow: hidden;
+}
+.bbs-news .bbs-news-list .news-item {
+    width: 265px;
+    height: 23px;
+    position: relative;
+    float: right;
+}
+.bbs-news .bbs-news-list .news-item p{
+    font-size: 12px;
+    float: left;
+}
+
+.bbs-home {
+    width: 1000px;
+    height: 741px;
+    margin: 0 auto;
+}
+.bbs-home .bbs-home-left {
+    width: 245px;
+    height: 737px;
+    background: url('../images/bbs-home-left-bg.jpg') no-repeat;
+    float: left;
+}
+.bbs-home .bbs-home-left a {
+    display: block;
+}
+.bbs-home .bbs-home-left .link1 {
+    height: 92px;
+}
+.bbs-home .bbs-home-left .link2 {
+    height: 67px;
+}
+.bbs-home .bbs-home-left .link3 {
+    height: 47px;
+}
+.bbs-home .bbs-home-left .link4 {
+    height: 52px;
+}
+.bbs-home .bbs-home-left .link5 {
+    height: 32px;
+}
+.bbs-home .bbs-home-left .link6 {
+    height: 32px;
+}
+.bbs-home .bbs-home-left .link7 {
+    height: 37px;
+}
+.bbs-home .bbs-home-left .link8 {
+    height: 54px;
+}
+.bbs-home .bbs-home-left .link9 {
+     height: 32px;
+}
+.bbs-home .bbs-home-left .link10 {
+      height: 32px;
+}
+.bbs-home .bbs-home-left .link11 {
+       height: 40px;
+}
+.bbs-home .bbs-home-left .link12 {
+    height: 52px;
+}
+.bbs-home .bbs-home-left .link13 {
+    height: 44px;
+}
+.bbs-home .bbs-home-left .link14 {
+    height: 47px;
+}
+
+
+
+.bbs-home .bbs-home-right {
+    width: 725px;
+    height: 741px;
+    float: right;
+}
+.bbs-home .bbs-home-right .home-focus-left {
+    float: left;
+    width: 410px;
+    height: 515px;
+}
+.home-focus-right {
+    float: left;
+    width: 295px;
+    height: 515px;
+    margin-left: 20px;
+    position: relative;
+}
+.home-focus-right .info {
+    width: 225px;
+    height: 200px;
+    padding: 35px;
+    background: #c49a6d;
+    color: #fff;
+    line-height: 1.4;
+    overflow: hidden;
+}
+.home-focus-right .info .title {
+    text-align: left;
+    font-size: 26px;
+    border-bottom: 1px dashed #fff;
+    padding-bottom: 10px;
+    line-height: 1.1;
+}
+.home-focus-right .info .more {
+    margin-top: 30px;
+    text-align: right;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.home-focus-right .info a {
+    color: #fff;
+}
+.home-focus-right .info .description {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.home-focus-right .angle {
+    width: 38px;
+    height: 44px;
+    background: url(../images/bbs-arrow-left.png);
+    position: absolute;
+    left: -38px;
+    top: 70px;
+    z-index: 50;
+}
+.top-recommend-threads {
+    margin-top: 30px;
+    padding: 0 5px;
+}
+.top-recommend-threads li {
+    margin-top: 20px;
+    font-size: 18px;
+    border-bottom: 1px dashed #999;
+    padding-bottom: 8px;
+}
+.top-recommend-threads li a {
+    float: left;
+}
+.top-recommend-threads li span {
+    float: right;
+    font-size: 16px;
+    color: #666;
+}
+.home-goto {
+    width: 750px;
+    margin-top: 35px;
+}
+.home-goto .home-goto-1 {
+    width: 465px;
+    height: 191px;
+    float: left;
+}
+.home-goto .home-goto-2 {
+    width: 250px;
+    height: 185px;
+    float: left;
+    margin-left: 10px;
+}
+.home-goto-3 {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+
+
+/*轮播*/
+
+.osSlider-main .slider-nav {
+    position: absolute;
+    width:100%;
+    height: 22px;
+    bottom: 20px;
+    text-align: center;
+    z-index: 25;
+}
+.osSlider-main .slider-nav li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 6px;
+    margin: 0 12px;
+    font-size: 12px;
+    color: #eee;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    background: none;
+    cursor: pointer;
+    transition: all 3s;
+}
+.osSlider-main .slider-nav li.active {
+    color: green;
+    background: #eee;
+}
+.osSlider-main .slider-nav li:hover {
+    border: 1px solid #f60;
+    background: #f60;
+    transform: rotateZ(360deg);
+}
+
+div.info-item {
+    display: none;
+}
+div.block {
+    display: block;
+}

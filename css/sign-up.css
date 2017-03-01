@@ -1,0 +1,90 @@
+html {
+    background-color: #fff;
+}
+@media (max-width: 1200px){
+    .middlebox {
+        width: 1200px;
+    }
+}
+.middlebox {
+    width: 100%;
+    background: url("http://passport.metroer.com/static/images/bg.png") repeat;
+    padding: 40px 0 60px 0;
+    font-size: 12px;
+    border-top: 1px dashed #999;
+}
+.register {
+    margin: 0 auto;
+    width: 607px;
+    border: 1px solid #D8CADA;
+    background-color: #fff;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.register .title {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 0;
+    border-bottom: 1px solid #D8CADA;
+    margin-bottom: 20px;
+}
+.register div {
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    border-bottom: 1px solid #f0f0f0;
+    color: #666;
+}
+.register div label {
+    display: block;
+    background-color: #FAFAFA;
+    width: 70px;
+    float: left;
+    padding-left: 20px;
+    color: #000;
+}
+.register div .retext {
+    width: 145px;
+    height: 15px;
+    margin-left: 15px;
+    margin-right: 10px;
+    outline: 0;
+    float: left;
+    margin-top: 8px;
+}
+.register div .radio {
+    margin-left: 15px;
+}
+.register div .radio2 {
+    margin-left: 40px;
+}
+.register div .break-img {
+    color: #666;
+    float: left;
+}
+.register div .break-img:hover {
+    text-decoration: underline;
+}
+.register div .term-go {
+    margin-left: 40px;
+    color: #666;
+}
+.register div .term-go:hover {
+    text-decoration: underline;
+}
+.register .sign-ok {
+    width: 120px;
+    height: 28px;
+    background-color: #AB79B4;
+    border: 1px solid #D8CADA;
+    color: #fff;
+    margin: 30px 0 0 220px;
+}
+.tips_true{
+    color: green;
+}
+.tips_false{
+    color: red;
+}

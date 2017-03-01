@@ -1,0 +1,106 @@
+html {
+    background-color: #fff;
+}
+@media (max-width: 1200px){
+    .middlebox {
+        width: 1200px;
+    }
+}
+.middlebox {
+    width: 100%;
+    background: url("http://passport.metroer.com/static/images/bg.png") repeat;
+    padding: 60px 0 80px 0;
+    font-size: 12px;
+    border-top: 1px dashed #999;
+}
+.register {
+    margin: 0 auto;
+    width: 830px;
+    padding: 30px 25px;
+    box-sizing: border-box;
+}
+.register .login {
+    width: 115px;
+    height: 133px;
+    float: left;
+    margin-left: 10px;
+    padding-top: 14px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 133px;
+}
+.register .login a {
+    font-size: 15px;
+    color: #000;
+    font-weight: bold;
+}
+.register .login a:hover {
+    text-decoration: underline;
+}
+.register .img1 {
+    background: url("http://passport.metroer.com/static/images/login_06.png") no-repeat;
+}
+.register .img2 {
+    background: url("http://passport.metroer.com/static/images/login_08.png") no-repeat;
+}
+.register .img3 {
+    background: url("http://passport.metroer.com/static/images/login_11.png") no-repeat;
+}
+.register .img4 {
+    background: url("http://passport.metroer.com/static/images/login_13.png") no-repeat;
+}
+.register .login2 {
+    width: 228px;
+    height: 227px;
+    float: left;
+    margin-left: 10px;
+    background: url("http://passport.metroer.com/static/images/login_03.png") no-repeat;
+    font-size: 12px;
+}
+.register .login2 .login-go {
+    margin: 50px 10px 0 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #D8CADA;
+}
+.register .login2 .login-go .iconfont {
+    margin-right: 5px;
+    color: #AB79B4;
+}
+.login2 .user {
+    margin-left: 20px;
+}
+.login2 .user div {
+    margin-top: 10px;
+}
+.register .login2 .login-go .dltext {
+    width: 135px;
+    height: 18px;
+    border: 1px solid #D8CADA;
+    outline: 0;
+
+}
+.register .login2 .login-go .dlbut {
+    background: #AB79B4;
+    color: #fff;
+    padding: 4px;
+    font-weight: bold;
+    border: 1px #D8CADA solid;
+    margin-left: 30px;
+}
+.login2 .sign-go {
+    margin-top: 10px;
+    padding-left: 45px;
+}
+.login2 .sign-go a {
+    color: #AB79B4;
+}
+.login2 .sign-go a:hover {
+    text-decoration: underline;
+}
+.login2 .weibo {
+    width: 107px;
+    height: 26px;
+    margin-left: 65px;
+    margin-top: 10px;
+    overflow: hidden;
+}

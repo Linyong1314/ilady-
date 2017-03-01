@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="js/wow/animate.min.css">
+    <script src="js/wow/wow.min.js"></script>
+    <script src="js/jquery-1.11.2.min.js"></script>
+</head>
+<body>
+<div class="com-header"></div>
+    <div class="middlebox">
+        <div class="register">
+            <div class="login img1"><a href="#">掌握潮流资讯</a></div>
+            <div class="login img2"><a href="#">分享各种趣事</a></div>
+            <div class="login2 bounceInUp">
+                <div class="login-go">
+                    <form action="" class="user" method="post" onsubmit="return login();" id="loginForm">
+                        <div>
+                            <i class="iconfont icon-user"></i>
+                            <input type="text" class="dltext" name="user.username" placeholder="请输入用户名" id="uName">
+                        </div>
+                        <div>
+                            <i class="iconfont icon-key"></i>
+                            <input type="password" class="dltext" name="user.password" placeholder="请输入密码" id="uPass">
+                        </div>
+                        <div>
+                            <label><input type="checkbox" name="remember_me" checked style="margin-left: 25px;">记住我</label>
+                            <input type="submit" value="登录" class="dlbut">
+                        </div>
+                    </form>
+                </div>
+                <div class="sign-go"><span>
+                    <a href="#">注册新用户</a>
+                    <a href="#" style="margin-left: 20px;">忘记密码?</a>
+                </span></div>
+                <div class="weibo">
+                    <a href="#"><img src="http://my.metroer.com/templates/default/images/zylogin_12.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="login img3"><a href="#">赢取丰富奖品</a></div>
+            <div class="login img4"><a href="#">产品免费试用</a></div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="com-footer"></div>
+</body>
+</html>
+<script>
+    function login() {
+        // console.info("点击了登录");
+        var userName = $("#uName").val();
+        // console.info(userName)
+        var userPass = $("#uPass").val();
+        // console.info(userPass);
+        if (userName == "" || userName == null) {
+            alert("用户名不能为空");
+            return false;
+        } else if (userPass == "" || userPass == null) {
+            alert("密码不能为空");
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    //wow动画
+    var wow = new WOW({
+        boxClass: 'login2',        //需要执行动画的元素的 class
+        animateClass: 'animated',               //animation.css 动画的 class
+        offset: 200,                            //距离可视区域多少开始执行动画
+    });
+    wow.init();
+
+    //加载首末模板
+    $('.com-header').load('index1.html');
+    $('.com-footer').load('index2.html');
+
+</script>

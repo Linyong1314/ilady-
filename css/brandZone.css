@@ -1,0 +1,267 @@
+html{
+    background: #f7f7f7;
+}
+body {
+    line-height: 17px;
+}
+.head {
+    width:1200px;
+    height:23px;
+    margin: 0 auto;
+    color: #666;
+    padding: 10px 0;
+    line-height: 23px;
+}
+.head > a {
+    padding: 0 3px;
+}
+
+/*containter*/
+
+.home-container {
+    width: 1200px;
+    background: #fff;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+
+/*bz-title*/
+
+.bz-title {
+    width: 100%;
+    height: 31px;
+    margin-top: 40px;
+    position: relative;
+    float: left;
+
+}
+.bz-title .bz-title-name {
+    width: 1170px;
+    padding:0 15px;
+    height:31px;
+    background: url("../images/brand-title-1.png") no-repeat;
+}
+.bz-title .bz-title-name a {
+    padding-right: 30px;
+    margin-top: 5px;
+    font-size: 16px;
+    float: right;
+}
+
+/*brand-list*/
+
+.brand-list {
+    width:1170px;
+    margin-top: 10px;
+}
+.brand-list .brand-list-item {
+    width: 218px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    background: #f9f9f9;
+}
+.brand-list-item:first-child {
+    margin-left: 0;
+}
+.brand-list-item .item-title{
+    margin-top: 10px;
+    padding: 0 10px;
+    font-size: 16px;
+    height: 27px;
+    line-height: 27px;
+    overflow: hidden;
+}
+.brand-list-item .evaluate {
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+}
+.brand-list-item .evaluate .score4{
+    width: 97px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    background: url(../images/brand-score.png) no-repeat;
+    background-position: 0 -48px;
+    display: inline-block;
+}
+.brand-list-item .price {
+    height: 47px;
+    line-height: 47px;
+    font-size: 28px;
+    color: #d7083b;
+}
+.brand-list-item .price span {
+    font-size: 16px;
+    color: #333;
+    padding-left: 10px;
+}
+.brand-list-item .description {
+    line-height: 1.7;
+    width: 198px;
+    margin: 0 auto;
+    border-top: 1px solid #ddd;
+    padding-top: 5px;
+    height: 48px;
+    overflow: hidden;
+    color: #333;
+}
+
+/*bz-title*/
+
+.bz-title .bz-title-name1 {
+    width: 1170px;
+    padding:0 15px;
+    height:31px;
+    background: url("../images/brand-title-2.png") no-repeat;
+}
+.bz-title .bz-title-name1 a {
+    padding-right: 30px;
+    margin-top: 5px;
+    font-size: 16px;
+    float: right;
+}
+
+/*top-brand-list*/
+
+.top-brand-list {
+    float: left;
+}
+.top-brand-list .top-brand-item:nth-of-type(5n+1) {
+    margin-left: 0;
+}
+.top-brand-item {
+    float: left;
+    margin-top: 40px;
+    width: 218px;
+    height: 281px;
+    margin-left: 20px;
+}
+.top-brand-item > .cover {
+    padding: 10px;
+    width: 218px;
+    height: 218px;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+.top-brand-item .cover a > img {
+    width: 198px;
+    height: 198px;
+}
+.top-brand-item .cover > p {
+    font-size: 20px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+.top-brand-item .title {
+    font-size: 18px;
+    margin-top: 8px;
+}
+.top-brand-item .fields {
+    margin-top: 14px;
+}
+.top-brand-item .fields span a {
+    color: #666;
+}
+.top-brand-item .fields .iconfont {
+    padding-right: 8px;
+}
+.top-brand-item .fields .comments {
+    padding-right: 10px;
+    border-right: 1px solid #ddd;
+}
+.top-brand-item .fields .goods {
+    padding-left: 10px;
+}
+
+/*bz-title*/
+
+.bz-title .bz-title-name2 {
+    width: 1170px;
+    padding:0 15px;
+    height:31px;
+    background: url("../images/brand-title-3.png") no-repeat;
+}
+
+.brand-comment-item {
+    margin-top: 25px;
+}
+.brand-comment-item .cover {
+    width: 165px;
+    float: left;
+}
+.brand-comment-item .cover img {
+    border-radius: 10px;
+}
+.brand-comment-item .info {
+    width: 950px;
+    float: left;
+    margin-left: 25px;
+    background: #f5f5f5;
+    padding: 20px 15px;
+    border-radius: 6px;
+}
+.brand-comment-item .info .avatar {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+.brand-comment-item .info .title {
+    color: #777;
+    font-size: 16px;
+    height: 35px;
+}
+.brand-comment-item .info .avatar img {
+    border-radius: 50%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+.brand-comment-item .info .score {
+    margin-top: 5px;
+    font-size: 16px;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+}
+.brand-comment-item .info .username {
+    display: inline-block;
+    margin: 0 5px;
+}
+.brand-comment-item .info .goods-title {
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.brand-comment-item .info .date {
+    font-size: 14px;
+    color: #999;
+}
+.brand-score .score5 {
+    width: 97px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+    background: url(../images/brand-score.png) no-repeat;
+    background-position: 0 -64px;
+    display: inline-block;
+}
+.brand-comment-item .info .content {
+    margin-top: 5px;
+    color: #666;
+    line-height: 1.7;
+}
+.brand-comment-item .info .gallery {
+    margin-top: 10px;
+}
+.brand-new-comment-item .info .gallery img {
+    margin-right: 5px;
+    border: 1px solid #ddd;
+    padding: 3px;
+}

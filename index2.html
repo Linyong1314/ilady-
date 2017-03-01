@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <style>
+        .btn-top {
+            width: 0;
+            height: 0;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            border-bottom: 50px solid #999;
+            display: none;
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="footer">
+    <div class="f-container">
+        <div class="con-left">
+            <img src="http://wwwimg.metroer.com/templates/default/images/footer-logo.jpg">
+        </div>
+        <div class="con-right">
+            <div class="c-r-nav">
+                <a href="#">授权声明</a>
+                <span>|</span>
+                <a href="#">招聘信息</a>
+                <span>|</span>
+                <a href="#">联系信息</a>
+                <span>|</span>
+                <a href="#">广告服务</a>
+                <span>|</span>
+                <a href="#">合作媒体</a>
+                <span>|</span>
+                <a href="#">媒体动态</a>
+            </div>
+            <div class="copyright">
+                <p>版权所有：上海森音信息技术有限公司 电话：（+86）63353637-670 （工作日 09：00-18:00）</p>
+                <p>Copyright Metroer.com All Rights Reseved 沪ICP备05019890号-1</p>
+            </div>
+            <div></div>
+        </div>
+        <div class="clear"></div>
+        <div class="friendlink">
+            友情链接：
+            <a href="#" target="_blank">周末画报</a>
+            <a href="#" target="_blank">CityMagazine</a>
+            <a href="#" target="_blank">Lohas乐活</a>
+            <a href="#" target="_blank">生活月刊</a>
+            <a href="#" target="_blank">新视线</a>
+            <a href="#" target="_blank">米兰圈</a>
+            <a href="#" target="_blank">果粒网</a>
+            <a href="#" target="_blank">动脉网</a>
+        </div>
+    </div>
+    <div class="f-bottom">
+        Power By Modern Media
+    </div>
+</div>
+    <div class="btn-top"><span class="top"></span></div>
+</body>
+</html>
+<script src="js/jquery-1.11.2.min.js"></script>
+<script>
+    //返回顶部按钮
+    $(function(){
+        $(window).bind('scroll',function(){
+            if($(document).scrollTop()>200){
+                $(".btn-top").show();
+            }
+            else{
+                $(".btn-top").hide();
+            }
+        })
+        $(".btn-top").click(function(){
+            $('body,html').animate({scrollTop:0},1000);
+        })
+    });
+</script>

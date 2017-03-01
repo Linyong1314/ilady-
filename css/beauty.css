@@ -1,0 +1,121 @@
+.urhere {
+    width: 1200px;
+    margin: 0 auto;
+    height: 23px;
+    line-height: 23px;
+    color: #666;
+    padding: 10px 0;
+}
+.urhere > a {
+    margin: 0 10px;
+}
+/*****<-category-recommed->*****/
+.category-recommed {
+    height: 630px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+.category-title {
+    width: 1190px;
+    margin: 0 auto;
+    border-bottom: 1px solid #999;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.category-title .name {
+    display: inline-block;
+    width: 300px;
+    background-color: #fff;
+    font-size: 26px;
+    position: relative;
+    bottom: -17px;
+}
+.category-recommed .left-recommed {
+    width: 280px;
+    background-color: #fff;
+    float: left;
+    margin: 10px;
+}
+.category-recommed .goto {
+    overflow: hidden;
+    position: relative;
+    width: 280px;
+    height: 255px;
+    float: left;
+}
+.category-recommed .goto p {
+    display: block;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 10;
+    line-height: 30px;
+    padding-right: 10px;
+}
+.category-recommed .goto .iconfont {
+    font-size: 12px;
+    padding-right: 10px;
+}
+.category-recommed .goto:nth-of-type(1) {
+    margin-bottom: 20px;
+}
+.category-recommed .center-recommed {
+    width: 580px;
+    height: 530px;
+    background-color: #fafafb;
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.center-recommed .imgaes img {
+    width: 550px;
+    height: 300px;
+}
+.center-recommed .title {
+    width: 550px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 20px 0 5px 0;
+    border-bottom: 1px dashed #999;
+}
+.center-recommed .description {
+    height: 110px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.7;
+    overflow: hidden;
+}
+.category-recommed .right-recommed {
+    width: 280px;
+    float: left;
+    margin: 10px;
+    background-color: #fff;
+}
+.category-recommed .goto2 {
+    position: relative;
+    width: 280px;
+    height: 530px;
+    overflow: hidden;
+}
+.category-recommed .goto2 p {
+    display: block;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 10;
+    line-height: 30px;
+    padding-right: 10px;
+}
+.category-recommed .goto2 .iconfont {
+    font-size: 12px;
+    padding-right: 10px;
+}
